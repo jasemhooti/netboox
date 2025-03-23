@@ -1,0 +1,15 @@
+{
+    "name": "netboxbot/telegram-bot",
+    "description": "Telegram Bot for NetBox Management",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "telegram-bot/api": "^2.3",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "NetBoxBot\\": "src/"
+        }
+    }
+} 
